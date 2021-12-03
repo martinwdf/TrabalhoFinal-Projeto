@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.bcopstein.negocio.entidades.ItemCarrinho;
 
-public class ImpostoBrasil implements ICalculoImposto {
+public class ImpostoOriginal implements ICalculoImposto {
 
   private static final Integer PORCENTAGEM_IMPOSTO = 12;
 

@@ -8,4 +8,7 @@ import lombok.Setter;
 public class SubtotalDTO {
   Integer codigo;
   Integer quantidade;
+
+  public Integer getCodigo(){return codigo;}
+  public Integer getQuantidade(){return quantidade;}
 }

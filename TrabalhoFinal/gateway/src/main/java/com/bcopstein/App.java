@@ -13,6 +13,7 @@ public class App {
     return builder.routes().route(p -> p.path("/vendas/*").uri("http://servVenda:8080"))
         .route(p -> p.path("/msvendas/*").uri("http://msVenda:8080"))
         .route(p -> p.path("/msestoque/*").uri("http://msEstoque:8080"))
+        .route(p -> p.path("/estoque/*").uri("http://msEstoque:8080"))
         .route(p -> p.path("/msestoque/produto/*").uri("http://msEstoque:8080")).build();
 
   }

@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.bcopstein.negocio.entidades.ItemCarrinho;
 
-public class ImpostoChile implements ICalculoImposto {
+public class ImpostoComprasGrandes implements ICalculoImposto {
   private static final Integer VALOR_PARA_IVA_MINIMO = 8000;
 
   @Override
